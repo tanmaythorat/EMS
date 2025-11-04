@@ -1,0 +1,82 @@
+/* NoticeEdit.css */
+
+.notice-edit-container {
+  max-width: 900px; /* Ensures proper width for the container */
+  margin: 2rem auto;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.notice-edit-form {
+  width: 100%; /* Ensure form takes full width */
+  max-width: 700px; /* Prevent excessive stretching */
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: #f9fafb;
+  border-radius: 8px;
+}
+
+.form-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.form-control, .form-select {
+  width: 100%; /* Ensure input fields take full width */
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 1rem;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+textarea.form-control {
+  min-height: 220px; /* Taller textarea for better usability */
+}
+
+.row.mb-4 {
+  display: flex;
+  gap: 1rem;
+}
+
+.col-md-6 {
+  flex: 1; /* Make both date fields equal in width */
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+}
