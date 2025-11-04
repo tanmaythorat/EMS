@@ -1,6 +1,6 @@
 const Employee = require('../models/Employee');
 const OTP = require('../models/otpModel');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const nodemailer = require('nodemailer');
 
 // Generate OTP
