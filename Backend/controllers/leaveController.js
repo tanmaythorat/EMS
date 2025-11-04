@@ -1,4 +1,4 @@
-const Leave = require("../models/LeaveModel");
+const Leave = require("../models/leaveModel");
 const Employee = require("../models/Employee");
 
 // Apply for Leave (Employee)
